@@ -4,7 +4,7 @@ import Login from './components/Login';
 
 function App() {
   return (
-    <div className="wrapper" style={{max-width:;}}>
+    <div className="wrapper" style={{}}>
      <Login />
     </div>
   );
