@@ -9,6 +9,7 @@ return (
       <img src={logo}></img>
     </header>
     
+    
     <div className='banner'>
       <div className='banner-img'>
         <img src={banner_img}></img>
