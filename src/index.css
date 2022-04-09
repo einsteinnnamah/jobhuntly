@@ -1,0 +1,94 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    
+    .btn span{
+        margin: 12px;
+        font-family: 'Epilogue', sans-serif;
+        color: #4640DE;
+        font-size: 18px;
+    }
+
+    .btn1{
+        background: #E9EBFD;
+        padding:20px 25px;
+        cursor: pointer;
+    }
+
+    .welcome_text h1{
+        font-family: 'Clash Display', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 120%;
+        color: #25324B;
+    }
+
+    .auth-btn{
+        display: flex;
+        align-items: center;
+        font-size:20px;
+        cursor: pointer;
+        
+    }
+
+    .auth-btn {
+        color: #4640DE;
+        border: 2px solid #D6DDEB;
+        padding: 20px 5rem;
+    }
+
+    .email-auth p{
+        align-self: flex-start;
+    }
+
+    
+
+    .auth-email-text{
+        color: #A8ADB7;
+        font-size:20px ;
+    }
+
+    .email_opt-auth-info input{
+        width: 400px;
+        height: 50px;
+        padding: 10px;
+        border: 2px solid #D6DDEB;
+    }
+
+    .email_opt-auth-info label{
+        color: #515B6F;
+    }
+
+    .submit-btn{
+        padding: 20px 10.5rem;
+        background: #4640DE;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .opt-login span{
+        color: #4640DE ;
+        cursor: pointer;
+    }
+
+    .opt-login{
+        color: #202430;
+    }
+
+
+   .background{
+       padding-right: 10rem;
+   }
+   
+
+   
+
+}
